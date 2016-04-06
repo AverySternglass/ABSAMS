@@ -1,0 +1,168 @@
+﻿Build started 3/28/2016 7:54:03 PM.
+     1>Project "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Solid.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Debug\Solid.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\Debug\Solid.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include" /I"C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\src" /I"C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull" /I"C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D QHULL /D _VC80_UPGRADE=0x0600 /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt "BP_C-api.cpp" BP_EndpointList.cpp BP_Proxy.cpp BP_Scene.cpp DT_Accuracy.cpp DT_BBoxTree.cpp DT_Box.cpp "DT_C-api.cpp" DT_Complex.cpp DT_Cone.cpp DT_Convex.cpp DT_Cylinder.cpp DT_Encounter.cpp DT_Facet.cpp DT_LineSegment.cpp DT_Object.cpp DT_PenDepth.cpp DT_Point.cpp DT_Polyhedron.cpp DT_Polytope.cpp DT_RespTable.cpp DT_Scene.cpp DT_Sphere.cpp DT_Triangle.cpp Dynamic.cpp Kinetic.cpp RigidBody.cpp
+         RigidBody.cpp
+         Kinetic.cpp
+         Dynamic.cpp
+         DT_Triangle.cpp
+         DT_Sphere.cpp
+         DT_Scene.cpp
+         DT_RespTable.cpp
+         DT_Polytope.cpp
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files\microsoft visual studio 10.0\vc\include\xutility(2212) : see declaration of 'std::_Copy_impl'
+                 c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\dt_array.h(49) : see reference to function template instantiation '_OutIt std::copy<const Data*,Data*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=DT_Index *,
+                     Data=DT_Index,
+                     _InIt=const DT_Index *
+                 ]
+                 c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\dt_array.h(44) : while compiling class template member function 'DT_Array<Data,Size>::DT_Array(Size,const Data *)'
+                 with
+                 [
+                     Data=DT_Index,
+                     Size=DT_Count
+                 ]
+                 c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\dt_polytope.h(48) : see reference to class template instantiation 'DT_Array<Data,Size>' being compiled
+                 with
+                 [
+                     Data=DT_Index,
+                     Size=DT_Count
+                 ]
+         DT_Polyhedron.cpp
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files\microsoft visual studio 10.0\vc\include\xutility(2212) : see declaration of 'std::_Copy_impl'
+                 c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\dt_polyhedron.cpp(193) : see reference to function template instantiation '_OutIt std::copy<std::_Vector_iterator<_Myvec>,MT_Point3*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=MT_Point3 *,
+                     _Myvec=std::_Vector_val<MT_Point3,std::allocator<MT_Point3>>,
+                     _InIt=std::_Vector_iterator<std::_Vector_val<MT_Point3,std::allocator<MT_Point3>>>
+                 ]
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files\microsoft visual studio 10.0\vc\include\xutility(2212) : see declaration of 'std::_Copy_impl'
+                 c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\dt_array.h(49) : see reference to function template instantiation '_OutIt std::copy<const Data*,Data*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=DT_Index *,
+                     Data=DT_Index,
+                     _InIt=const DT_Index *
+                 ]
+                 c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\dt_array.h(44) : while compiling class template member function 'DT_Array<Data,Size>::DT_Array(Size,const Data *)'
+                 with
+                 [
+                     Data=DT_Index,
+                     Size=DT_Count
+                 ]
+                 c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\dt_polyhedron.cpp(279) : see reference to class template instantiation 'DT_Array<Data,Size>' being compiled
+                 with
+                 [
+                     Data=DT_Index,
+                     Size=DT_Count
+                 ]
+         DT_Point.cpp
+         DT_PenDepth.cpp
+         DT_Object.cpp
+         DT_LineSegment.cpp
+         DT_Facet.cpp
+         DT_Encounter.cpp
+         DT_Cylinder.cpp
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\dt_cylinder.h(39): warning C4244: '=' : conversion from 'double' to 'MT_Scalar', possible loss of data
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\dt_cylinder.h(44): warning C4244: '=' : conversion from 'double' to 'MT_Scalar', possible loss of data
+         DT_Convex.cpp
+         DT_Cone.cpp
+         DT_Complex.cpp
+         DT_C-api.cpp
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\dt_box.h(48): warning C4244: '=' : conversion from 'double' to 'MT_Scalar', possible loss of data
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\dt_box.h(53): warning C4244: '=' : conversion from 'double' to 'MT_Scalar', possible loss of data
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\dt_box.h(58): warning C4244: '=' : conversion from 'double' to 'MT_Scalar', possible loss of data
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\dt_cylinder.h(39): warning C4244: '=' : conversion from 'double' to 'MT_Scalar', possible loss of data
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\dt_cylinder.h(44): warning C4244: '=' : conversion from 'double' to 'MT_Scalar', possible loss of data
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files\microsoft visual studio 10.0\vc\include\xutility(2212) : see declaration of 'std::_Copy_impl'
+                 c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\dt_c-api.cpp(163) : see reference to function template instantiation '_OutIt std::copy<std::_Vector_iterator<_Myvec>,T_Vertex*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=T_Vertex *,
+                     _Myvec=std::_Vector_val<T_Vertex,std::allocator<T_Vertex>>,
+                     _InIt=std::_Vector_iterator<std::_Vector_val<T_Vertex,std::allocator<T_Vertex>>>
+                 ]
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files\microsoft visual studio 10.0\vc\include\xutility(2212) : see declaration of 'std::_Copy_impl'
+                 c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\dt_array.h(49) : see reference to function template instantiation '_OutIt std::copy<const Data*,Data*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=DT_Index *,
+                     Data=DT_Index,
+                     _InIt=const DT_Index *
+                 ]
+                 c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\dt_array.h(44) : while compiling class template member function 'DT_Array<Data,Size>::DT_Array(Size,const Data *)'
+                 with
+                 [
+                     Data=DT_Index,
+                     Size=DT_Count
+                 ]
+                 c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\dt_polytope.h(48) : see reference to class template instantiation 'DT_Array<Data,Size>' being compiled
+                 with
+                 [
+                     Data=DT_Index,
+                     Size=DT_Count
+                 ]
+         Generating Code...
+         Compiling...
+         DT_Box.cpp
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\dt_box.h(48): warning C4244: '=' : conversion from 'double' to 'MT_Scalar', possible loss of data
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\dt_box.h(53): warning C4244: '=' : conversion from 'double' to 'MT_Scalar', possible loss of data
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\dt_box.h(58): warning C4244: '=' : conversion from 'double' to 'MT_Scalar', possible loss of data
+         DT_BBoxTree.cpp
+         DT_Accuracy.cpp
+         BP_Scene.cpp
+         BP_Proxy.cpp
+         BP_EndpointList.cpp
+         BP_C-api.cpp
+         Generating Code...
+       Lib:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\Debug\Solid.lib" /NOLOGO ".\Debug\BP_C-api.obj"
+         .\Debug\BP_EndpointList.obj
+         .\Debug\BP_Proxy.obj
+         .\Debug\BP_Scene.obj
+         .\Debug\DT_Accuracy.obj
+         .\Debug\DT_BBoxTree.obj
+         .\Debug\DT_Box.obj
+         ".\Debug\DT_C-api.obj"
+         .\Debug\DT_Complex.obj
+         .\Debug\DT_Cone.obj
+         .\Debug\DT_Convex.obj
+         .\Debug\DT_Cylinder.obj
+         .\Debug\DT_Encounter.obj
+         .\Debug\DT_Facet.obj
+         .\Debug\DT_LineSegment.obj
+         .\Debug\DT_Object.obj
+         .\Debug\DT_PenDepth.obj
+         .\Debug\DT_Point.obj
+         .\Debug\DT_Polyhedron.obj
+         .\Debug\DT_Polytope.obj
+         .\Debug\DT_RespTable.obj
+         .\Debug\DT_Scene.obj
+         .\Debug\DT_Sphere.obj
+         .\Debug\DT_Triangle.obj
+         .\Debug\Dynamic.obj
+         .\Debug\Kinetic.obj
+         .\Debug\RigidBody.obj
+         Solid.vcxproj -> C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\.\Debug\Solid.lib
+       BscMake:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug\Solid.bsc" ".\Debug\BP_C-api.sbr" .\Debug\BP_EndpointList.sbr .\Debug\BP_Proxy.sbr .\Debug\BP_Scene.sbr .\Debug\DT_Accuracy.sbr .\Debug\DT_BBoxTree.sbr .\Debug\DT_Box.sbr ".\Debug\DT_C-api.sbr" .\Debug\DT_Complex.sbr .\Debug\DT_Cone.sbr .\Debug\DT_Convex.sbr .\Debug\DT_Cylinder.sbr .\Debug\DT_Encounter.sbr .\Debug\DT_Facet.sbr .\Debug\DT_LineSegment.sbr .\Debug\DT_Object.sbr .\Debug\DT_PenDepth.sbr .\Debug\DT_Point.sbr .\Debug\DT_Polyhedron.sbr .\Debug\DT_Polytope.sbr .\Debug\DT_RespTable.sbr .\Debug\DT_Scene.sbr .\Debug\DT_Sphere.sbr .\Debug\DT_Triangle.sbr .\Debug\Dynamic.sbr .\Debug\Kinetic.sbr .\Debug\RigidBody.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\Solid.unsuccessfulbuild".
+         Touching ".\Debug\Solid.lastbuildstate".
+     1>Done Building Project "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Solid.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.44

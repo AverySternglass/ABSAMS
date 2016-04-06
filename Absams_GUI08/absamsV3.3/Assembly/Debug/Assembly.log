@@ -1,0 +1,69 @@
+﻿Build started 3/28/2016 7:54:24 PM.
+     1>Project "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Assembly.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Debug\Assembly.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\Debug\Assembly.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt Assembly.cpp Box.cpp Cylinder.cpp List.cpp ListElement.cpp Muscle.cpp MuscleGroup.cpp Node.cpp Spring.cpp SpringBase.cpp Status.cpp Sucker.cpp Surface.cpp Vector.cpp
+         Vector.cpp
+         Surface.cpp
+         Sucker.cpp
+         Status.cpp
+         SpringBase.cpp
+         Spring.cpp
+         Node.cpp
+         MuscleGroup.cpp
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\musclegroup.cpp(23): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         Muscle.cpp
+         ListElement.cpp
+         List.cpp
+         Cylinder.cpp
+         Box.cpp
+         Assembly.cpp
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\assembly.cpp(63): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\assembly.cpp(285): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\assembly.cpp(477): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\assembly.cpp(479): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\assembly.cpp(502): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\assembly.cpp(504): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\assembly.cpp(528): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\assembly.cpp(530): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         Generating Code...
+       Lib:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\Debug\Assembly.lib" /NOLOGO .\Debug\Assembly.obj
+         .\Debug\Box.obj
+         .\Debug\Cylinder.obj
+         .\Debug\List.obj
+         .\Debug\ListElement.obj
+         .\Debug\Muscle.obj
+         .\Debug\MuscleGroup.obj
+         .\Debug\Node.obj
+         .\Debug\Spring.obj
+         .\Debug\SpringBase.obj
+         .\Debug\Status.obj
+         .\Debug\Sucker.obj
+         .\Debug\Surface.obj
+         .\Debug\Vector.obj
+     1>ListElement.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>List.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         Assembly.vcxproj -> C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\.\Debug\Assembly.lib
+       BscMake:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug\Assembly.bsc" .\Debug\Assembly.sbr .\Debug\Box.sbr .\Debug\Cylinder.sbr .\Debug\List.sbr .\Debug\ListElement.sbr .\Debug\Muscle.sbr .\Debug\MuscleGroup.sbr .\Debug\Node.sbr .\Debug\Spring.sbr .\Debug\SpringBase.sbr .\Debug\Status.sbr .\Debug\Sucker.sbr .\Debug\Surface.sbr .\Debug\Vector.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\Assembly.unsuccessfulbuild".
+         Touching ".\Debug\Assembly.lastbuildstate".
+     1>Done Building Project "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Assembly.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.71

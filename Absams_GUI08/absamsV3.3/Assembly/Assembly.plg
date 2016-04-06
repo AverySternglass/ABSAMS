@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Assembly - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\setlurp\LOCALS~1\Temp\RSPAD3.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/Assembly.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Active\BCR\testgui1012a\absamsV3.3\Assembly\Node.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\setlurp\LOCALS~1\Temp\RSPAD3.tmp" 
+Creating temporary file "C:\DOCUME~1\setlurp\LOCALS~1\Temp\RSPAD4.tmp" with contents
+[
+/nologo /out:"Debug\Assembly.lib" 
+.\Debug\Assembly.obj
+.\Debug\Box.obj
+.\Debug\Cylinder.obj
+.\Debug\List.obj
+.\Debug\ListElement.obj
+.\Debug\Muscle.obj
+.\Debug\MuscleGroup.obj
+.\Debug\Node.obj
+.\Debug\Spring.obj
+.\Debug\SpringBase.obj
+.\Debug\Status.obj
+.\Debug\Sucker.obj
+.\Debug\Surface.obj
+.\Debug\Vector.obj
+\Active\BCR\testgui1012a\absamsV3.3\Solid\Debug\Solid.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\setlurp\LOCALS~1\Temp\RSPAD4.tmp"
+<h3>Output Window</h3>
+Compiling...
+Node.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+Assembly.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,56 @@
+﻿Build started 3/28/2016 7:54:35 PM.
+     1>Project "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Simulation\Simulation.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Debug\Simulation.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\Debug\Simulation.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include" /I"C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt controlFile.cpp Instantiation.t.cpp Simulation.cpp
+         Simulation.cpp
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\solid.hpp(156): warning C4355: 'this' : used in base member initializer list
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\bmp.hpp(107): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\bmp.hpp(201): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\simulation.cpp(161): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\simulation.cpp(162): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\simulation.cpp(163): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\simulation.cpp(164): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\simulation.cpp(165): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\simulation.cpp(183): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\simulation.cpp(417): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\simulation.cpp(420): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\simulation.cpp(423): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\simulation.cpp(426): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\simulation.cpp(430): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         Instantiation.t.cpp
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\solid.hpp(156): warning C4355: 'this' : used in base member initializer list
+         controlFile.cpp
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\solid.hpp(156): warning C4355: 'this' : used in base member initializer list
+         Generating Code...
+       Lib:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\Debug\Simulation.lib" /NOLOGO .\Debug\controlFile.obj
+         .\Debug\Instantiation.t.obj
+         .\Debug\Simulation.obj
+         Simulation.vcxproj -> C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Simulation\.\Debug\Simulation.lib
+       BscMake:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug\Simulation.bsc" .\Debug\controlFile.sbr .\Debug\Instantiation.t.sbr .\Debug\Simulation.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\Simulation.unsuccessfulbuild".
+         Touching ".\Debug\Simulation.lastbuildstate".
+     1>Done Building Project "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Simulation\Simulation.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.68

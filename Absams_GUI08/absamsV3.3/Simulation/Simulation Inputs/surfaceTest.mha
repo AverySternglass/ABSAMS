@@ -1,0 +1,23 @@
+MHUs	3													
+Surfaces	1													
+Materials	1
+
+mhuID	Type	Anchor	a	b	c	x	y	z	I	j	k	l	m	n
+0	1	1	0.01	0.005	-1	0.0025	0	0	1	0	0	0	1	0
+1	1	0	0.01	0.005	-1	0.0075	0	0	1	0	0	0	1	0
+2	1	0	0.01	0.005	-1	0.0125	0	0	1	0	0	0	1	0
+
+Surface	0			
+Nodes	4			
+Springs	2			
+
+NodeID	mhuID	U	V	W
+0	0	0	0	0.0025
+1	1	0	0	-0.0025
+2	1	0	0	-0.0025
+3	2	0	0	0.0025
+
+SpringID	startNode	endNode	rest length	stiffness	Damping
+0	0	1	-1	8135.071503	1
+1	2	3	-1	8135.071503	1
+

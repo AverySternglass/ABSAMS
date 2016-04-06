@@ -1,0 +1,1474 @@
+﻿Build started 3/28/2016 7:54:38 PM.
+     1>Project "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\testGUI.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Debug\testGUI.lastbuildstate".
+       InitializeBuildStatus:
+         Touching ".\Debug\testGUI.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include" /I"C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MD /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\testGUI.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TP /showIncludes /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         Note: including file: c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\Stdafx.h
+         Note: including file:  c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxwin.h
+         Note: including file:   c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h
+         Note: including file:    c:\Program Files\Microsoft Visual Studio 10.0\VC\include\new.h
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\sal.h
+         Note: including file:       c:\program files\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h
+         Note: including file:      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\vadefs.h
+         Note: including file:    c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxver_.h
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxv_w32.h
+         Note: including file:      c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winsdkver.h
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         Note: including file:      c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\sdkddkver.h
+         Note: including file:      c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\windows.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\excpt.h
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdarg.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\windef.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ctype.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\specstrings.h
+         Note: including file:          c:\program files\microsoft sdks\windows\v7.0a\include\sal_supp.h
+         Note: including file:          c:\program files\microsoft sdks\windows\v7.0a\include\specstrings_supp.h
+         Note: including file:          c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\specstrings_strict.h
+         Note: including file:           c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\specstrings_undef.h
+         Note: including file:          c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\driverspecs.h
+         Note: including file:           c:\program files\microsoft sdks\windows\v7.0a\include\sdv_driverspecs.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\kernelspecs.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\basetsd.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\guiddef.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h
+         Note: including file:           c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:         c:\program files\microsoft sdks\windows\v7.0a\include\pshpack4.h
+         Note: including file:         c:\program files\microsoft sdks\windows\v7.0a\include\poppack.h
+         Note: including file:         c:\program files\microsoft sdks\windows\v7.0a\include\pshpack4.h
+         Note: including file:         c:\program files\microsoft sdks\windows\v7.0a\include\poppack.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack4.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:         c:\program files\microsoft sdks\windows\v7.0a\include\pshpack4.h
+         Note: including file:         c:\program files\microsoft sdks\windows\v7.0a\include\pshpack2.h
+         Note: including file:         c:\program files\microsoft sdks\windows\v7.0a\include\poppack.h
+         Note: including file:         c:\program files\microsoft sdks\windows\v7.0a\include\pshpack2.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack2.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:         c:\program files\microsoft sdks\windows\v7.0a\include\poppack.h
+         Note: including file:         c:\program files\microsoft sdks\windows\v7.0a\include\pshpack8.h
+         Note: including file:         c:\program files\microsoft sdks\windows\v7.0a\include\poppack.h
+         Note: including file:         c:\program files\microsoft sdks\windows\v7.0a\include\poppack.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ktmtypes.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winbase.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winerror.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\wingdi.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack2.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack2.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack4.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack4.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winuser.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack2.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\tvout.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnls.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\wincon.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winver.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\verrsrc.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winreg.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\reason.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnetwk.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\wnnc.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\stralign.h
+         Note: including file:      c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\zmouse.h
+         Note: including file:      c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\commctrl.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\prsht.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack4.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\tchar.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\mbstring.h
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\mbctype.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxv_dll.h
+         Note: including file:    c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\swprintf.inl
+         Note: including file:    c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits.h
+         Note: including file:      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:    c:\Program Files\Microsoft Visual Studio 10.0\VC\include\time.h
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\wtime.inl
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\time.inl
+         Note: including file:    c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stddef.h
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:    c:\Program Files\Microsoft Visual Studio 10.0\VC\include\errno.h
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:    c:\Program Files\Microsoft Visual Studio 10.0\VC\include\malloc.h
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:    c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdbg.h
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:    c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\atltrace.h
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\atldef.h
+         Note: including file:      c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\atlrc.h
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\atlconv.h
+         Note: including file:      c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\atlalloc.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ole2.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\objbase.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\rpc.h
+         Note: including file:          c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\rpcdce.h
+         Note: including file:           c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\rpcdcep.h
+         Note: including file:          c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\rpcnsi.h
+         Note: including file:          c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\rpcnterr.h
+         Note: including file:          c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\rpcasync.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\rpcndr.h
+         Note: including file:          c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:          c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\rpcnsip.h
+         Note: including file:          c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\rpcsal.h
+         Note: including file:          c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\wtypes.h
+         Note: including file:          c:\program files\microsoft sdks\windows\v7.0a\include\guiddef.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\unknwn.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\objidl.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\guiddef.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\cguid.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\urlmon.h
+         Note: including file:          c:\program files\microsoft sdks\windows\v7.0a\include\oleidl.h
+         Note: including file:          c:\program files\microsoft sdks\windows\v7.0a\include\servprov.h
+         Note: including file:          c:\program files\microsoft sdks\windows\v7.0a\include\msxml.h
+         Note: including file:           c:\program files\microsoft sdks\windows\v7.0a\include\oaidl.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\propidl.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\oleauto.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\atldebugapi.h
+         Note: including file:    c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxstr.h
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\atlcore.h
+         Note: including file:      c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\atlchecked.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\atlexcept.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\wchar.h
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:      c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\atlsimpcoll.h
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\cstringt.h
+         Note: including file:      c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\atlsimpstr.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\atlmem.h
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\atlcommem.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\atlcomcli.h
+         Note: including file:          c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\olectl.h
+         Note: including file:           c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:           c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ocidl.h
+         Note: including file:           c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:      c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\cstringt.inl
+         Note: including file:    c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\atltransactionmanager.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ktmw32.h
+         Note: including file:    c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\atltime.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\oledb.h
+         Note: including file:      c:\program files\microsoft sdks\windows\v7.0a\include\transact.h
+         Note: including file:      c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack2.h
+         Note: including file:      c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\accctrl.h
+         Note: including file:      c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:    c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxcoll.h
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxstat_.h
+         Note: including file:      c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\atltypes.h
+         Note: including file:      c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxtls_.h
+         Note: including file:    c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.inl
+         Note: including file:   c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\shellapi.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:   c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxres.h
+         Note: including file:   c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\commdlg.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\prsht.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:   c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxctrlcontainer.h
+         Note: including file:   c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\shobjidl.h
+         Note: including file:    c:\program files\microsoft sdks\windows\v7.0a\include\docobj.h
+         Note: including file:    c:\program files\microsoft sdks\windows\v7.0a\include\shtypes.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:    c:\program files\microsoft sdks\windows\v7.0a\include\comcat.h
+         Note: including file:    c:\program files\microsoft sdks\windows\v7.0a\include\prsht.h
+         Note: including file:    c:\program files\microsoft sdks\windows\v7.0a\include\propsys.h
+         Note: including file:     c:\program files\microsoft sdks\windows\v7.0a\include\StructuredQueryCondition.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\propkeydef.h
+         Note: including file:    c:\program files\microsoft sdks\windows\v7.0a\include\ObjectArray.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\sherrors.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\prsht.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:   c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\thumbcache.h
+         Note: including file:   c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\atlhandler.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\filter.h
+         Note: including file:    c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\atlstr.h
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\atlbase.h
+         Note: including file:      c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winsock2.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ws2def.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\inaddr.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\qos.h
+         Note: including file:      c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\atliface.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\oleacc.h
+         Note: including file:      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\process.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:      c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\shlwapi.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:      c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\statreg.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnls.h
+         Note: including file:   c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\tpcshrd.h
+         Note: including file:   c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxcomctl32.h
+         Note: including file:   c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\vssym32.h
+         Note: including file:    c:\program files\microsoft sdks\windows\v7.0a\include\VSStyle.h
+         Note: including file:   c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ws2ipdef.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\in6addr.h
+         Note: including file:   c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\windns.h
+         Note: including file:   c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\iphlpapi.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\iprtrmib.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\mprapi.h
+         Note: including file:      c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\lmcons.h
+         Note: including file:      c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ras.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack4.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:      c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\wincrypt.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\bcrypt.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ncrypt.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\bcrypt.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ipifcons.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ipmib.h
+         Note: including file:      c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ifmib.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ifdef.h
+         Note: including file:      c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\nldef.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\tcpmib.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\udpmib.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ipexport.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\packon.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\packoff.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\iptypes.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\tcpestats.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\netioapi.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntddndis.h
+         Note: including file:      c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\devpkey.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\devpropdef.h
+         Note: including file:      c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pciprop.h
+         Note: including file:      c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\windot11.h
+         Note: including file:       c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\WlanTypes.h
+         Note: including file:   c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\htmlhelp.h
+         Note: including file:   c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxmsg_.h
+         Note: including file:   c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxdd_.h
+         Note: including file:   c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxdll_.h
+         Note: including file:   c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxcomctl32.inl
+         Note: including file:   c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxwin4.inl
+         Note: including file:  c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxext.h
+         Note: including file:   c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxdlgs.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\richedit.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack4.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:   c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\uxtheme.h
+         Note: including file:  c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxdisp.h
+         Note: including file:   c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\shlobj.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\shlguid.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\isguids.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\exdisp.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\shldisp.h
+         Note: including file:     c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\knownfolders.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:    c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+         Note: including file:   c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\atlcomtime.h
+         Note: including file:   c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxocc.h
+         Note: including file:    c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxtempl.h
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxplex_.h
+         Note: including file:    c:\program files\microsoft visual studio 10.0\vc\atlmfc\include\olebind.h
+         Note: including file:    c:\program files\microsoft visual studio 10.0\vc\atlmfc\include\ocdbid.h
+         Note: including file:    c:\program files\microsoft visual studio 10.0\vc\atlmfc\include\ocdb.h
+         Note: including file:  c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxdtctl.h
+         Note: including file:  c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxcmn.h
+         Note: including file:   c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\uxtheme.h
+         Note: including file:   c:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxcmn3.inl
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include" /I"C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MD /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\testGUI.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TP /showIncludes /analyze- /errorReport:prompt EditDlg.cpp EditSprDlg.cpp testGUI.cpp testGUIDlg.cpp
+         testGUIDlg.cpp
+         Note: including file: c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\testGUI.h
+         Note: including file:  c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\resource.h
+         Note: including file: c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\testGUIDlg.h
+         Note: including file: c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\resource.h
+         Note: including file: c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\EditDlg.h
+         Note: including file:  c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\interface.h
+         Note: including file:   c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsV3.3\Simulation\Simulation.hpp
+         Note: including file:    c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\..\Assembly\Cement.hpp
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h
+         Note: including file:      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Bricks.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Globals.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\GL\Glut.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\GL/gl.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\GL/glu.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\GL/gl.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Volume.hpp
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/qhull.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\setjmp.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\float.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtwrn.h
+         Note: including file:           c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:         c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\qhull2002.1\include\qhull\user.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/mem.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/qset.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/geom.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/merge.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/poly.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/io.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/stat.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Vector.hpp
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iostream
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ostream
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios
+         Note: including file:           c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum
+         Note: including file:            c:\Program Files\Microsoft Visual Studio 10.0\VC\include\climits
+         Note: including file:             c:\Program Files\Microsoft Visual Studio 10.0\VC\include\yvals.h
+         Note: including file:              c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:              c:\Program Files\Microsoft Visual Studio 10.0\VC\include\use_ansi.h
+         Note: including file:            c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cmath
+         Note: including file:             c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h
+         Note: including file:            c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstdio
+         Note: including file:            c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstdlib
+         Note: including file:            c:\Program Files\Microsoft Visual Studio 10.0\VC\include\streambuf
+         Note: including file:             c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xiosbase
+         Note: including file:              c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale
+         Note: including file:               c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstring
+         Note: including file:               c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdexcept
+         Note: including file:                c:\Program Files\Microsoft Visual Studio 10.0\VC\include\exception
+         Note: including file:                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xstddef
+         Note: including file:                  c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstddef
+         Note: including file:                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\eh.h
+         Note: including file:                  c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:                c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xstring
+         Note: including file:                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xmemory
+         Note: including file:                  c:\Program Files\Microsoft Visual Studio 10.0\VC\include\new
+         Note: including file:                  c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility
+         Note: including file:                   c:\Program Files\Microsoft Visual Studio 10.0\VC\include\utility
+         Note: including file:                    c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd
+         Note: including file:                     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cwchar
+         Note: including file:                    c:\Program Files\Microsoft Visual Studio 10.0\VC\include\type_traits
+         Note: including file:                     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ymath.h
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cfloat
+         Note: including file:                     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xtr1common
+         Note: including file:                     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:               c:\Program Files\Microsoft Visual Studio 10.0\VC\include\typeinfo
+         Note: including file:               c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocinfo
+         Note: including file:                c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocinfo.h
+         Note: including file:                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\locale.h
+         Note: including file:                  c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:               c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xdebug
+         Note: including file:              c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error
+         Note: including file:               c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cerrno
+         Note: including file:              c:\Program Files\Microsoft Visual Studio 10.0\VC\include\share.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\List.hpp
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\ListElement.hpp
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Status.hpp
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Status.hpp
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Spring.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Bricks.hpp
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Cylinder.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Globals.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Vector.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\List.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Bricks.hpp
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Box.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Globals.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Vector.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\List.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Bricks.hpp
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\MuscleGroup.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Bricks.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\List.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Cylinder.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Box.hpp
+         Note: including file:    c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\..\Assembly\Sucker.hpp
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Cement.hpp
+         Note: including file:    c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\..\Command\Command.hpp
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\command\..\Assembly\List.hpp
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\command\..\Assembly\Cement.hpp
+         Note: including file:    c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\..\Solid\Solid.hpp
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\GL/glut.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\GEN_MinMax.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Point3.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Vector3.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Scalar.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\SOLID_types.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\GEN_MinMax.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\GEN_random.h
+         Note: including file:       C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include\MT/Vector3.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/MT/Tuple3.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cassert
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\assert.h
+         Note: including file:           c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cassert
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\assert.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Vector3.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Quaternion.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Scalar.h
+         Note: including file:      C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include\MT/Quaternion.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cassert
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\assert.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/MT/Tuple4.h
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cassert
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\assert.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/MT/Vector3.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Matrix3x3.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Scalar.h
+         Note: including file:      C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include\MT/Matrix3x3.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cassert
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\assert.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/MT/Vector3.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/MT/Quaternion.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Transform.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Scalar.h
+         Note: including file:      C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include\MT/Transform.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/MT/Vector3.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/MT/Matrix3x3.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\..\Assembly\Cement.hpp
+         Note: including file:     C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include\SOLID.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/SOLID_types.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\RigidBody.h
+         Note: including file:      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\vector
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\memory
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\intrin.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\immintrin.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\wmmintrin.h
+         Note: including file:           c:\Program Files\Microsoft Visual Studio 10.0\VC\include\nmmintrin.h
+         Note: including file:            c:\Program Files\Microsoft Visual Studio 10.0\VC\include\smmintrin.h
+         Note: including file:             c:\Program Files\Microsoft Visual Studio 10.0\VC\include\tmmintrin.h
+         Note: including file:              c:\Program Files\Microsoft Visual Studio 10.0\VC\include\pmmintrin.h
+         Note: including file:               c:\Program Files\Microsoft Visual Studio 10.0\VC\include\emmintrin.h
+         Note: including file:                c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xmmintrin.h
+         Note: including file:                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\mmintrin.h
+         Note: including file:                  c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\mm3dnow.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\mmintrin.h
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfunctional
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\Dynamic.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\Kinetic.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Transform.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Point3.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Quaternion.h
+         Note: including file:    c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\..\Solid\DT_Cylinder.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\DT_Convex.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\DT_Shape.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\algorithm
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_BBox.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Scalar.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Point3.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Vector3.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include\MT/Tuple3.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Interval.h
+         Note: including file:         C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include\MT/Interval.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cassert
+         Note: including file:           c:\Program Files\Microsoft Visual Studio 10.0\VC\include\assert.h
+         Note: including file:            c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:         c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Scalar.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Transform.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Vector3.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Point3.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Matrix3x3.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Transform.h
+         Note: including file:    c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\..\Solid\DT_Box.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\DT_Convex.h
+         Note: including file:    c:\Program Files\Microsoft Visual Studio 10.0\VC\include\GL\glut.h
+         Note: including file:   c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\GL/gl.h
+         Note: including file:   c:\Program Files\Microsoft Visual Studio 10.0\VC\include\GL/glut.h
+         Note: including file: c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\EditSprDlg.h
+         Note: including file:  c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\interface.h
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\testguidlg.cpp(223): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\testguidlg.cpp(240): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\testguidlg.cpp(280): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\testguidlg.cpp(349): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\testguidlg.cpp(407): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         testGUI.cpp
+         Note: including file: c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\testGUI.h
+         Note: including file:  c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\resource.h
+         Note: including file: c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\testGUIDlg.h
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\testgui.cpp(52): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+                 c:\program files\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h(5344) : see declaration of 'CWinApp::Enable3dControls'
+         EditSprDlg.cpp
+         Note: including file: c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\testGUI.h
+         Note: including file:  c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\resource.h
+         Note: including file: c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\EditSprDlg.h
+         Note: including file:  c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\interface.h
+         Note: including file:   c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsV3.3\Simulation\Simulation.hpp
+         Note: including file:    c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\..\Assembly\Cement.hpp
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h
+         Note: including file:      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Bricks.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Globals.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\GL\Glut.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\GL/gl.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\GL/glu.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\GL/gl.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Volume.hpp
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/qhull.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\setjmp.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\float.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtwrn.h
+         Note: including file:           c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:         c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\qhull2002.1\include\qhull\user.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/mem.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/qset.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/geom.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/merge.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/poly.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/io.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/stat.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Vector.hpp
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iostream
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ostream
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios
+         Note: including file:           c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum
+         Note: including file:            c:\Program Files\Microsoft Visual Studio 10.0\VC\include\climits
+         Note: including file:             c:\Program Files\Microsoft Visual Studio 10.0\VC\include\yvals.h
+         Note: including file:              c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:              c:\Program Files\Microsoft Visual Studio 10.0\VC\include\use_ansi.h
+         Note: including file:            c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cmath
+         Note: including file:             c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h
+         Note: including file:            c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstdio
+         Note: including file:            c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstdlib
+         Note: including file:            c:\Program Files\Microsoft Visual Studio 10.0\VC\include\streambuf
+         Note: including file:             c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xiosbase
+         Note: including file:              c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale
+         Note: including file:               c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstring
+         Note: including file:               c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdexcept
+         Note: including file:                c:\Program Files\Microsoft Visual Studio 10.0\VC\include\exception
+         Note: including file:                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xstddef
+         Note: including file:                  c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstddef
+         Note: including file:                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\eh.h
+         Note: including file:                  c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:                c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xstring
+         Note: including file:                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xmemory
+         Note: including file:                  c:\Program Files\Microsoft Visual Studio 10.0\VC\include\new
+         Note: including file:                  c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility
+         Note: including file:                   c:\Program Files\Microsoft Visual Studio 10.0\VC\include\utility
+         Note: including file:                    c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd
+         Note: including file:                     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cwchar
+         Note: including file:                    c:\Program Files\Microsoft Visual Studio 10.0\VC\include\type_traits
+         Note: including file:                     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ymath.h
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cfloat
+         Note: including file:                     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xtr1common
+         Note: including file:                     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:               c:\Program Files\Microsoft Visual Studio 10.0\VC\include\typeinfo
+         Note: including file:               c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocinfo
+         Note: including file:                c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocinfo.h
+         Note: including file:                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\locale.h
+         Note: including file:                  c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:               c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xdebug
+         Note: including file:              c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error
+         Note: including file:               c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cerrno
+         Note: including file:              c:\Program Files\Microsoft Visual Studio 10.0\VC\include\share.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\List.hpp
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\ListElement.hpp
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Status.hpp
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Status.hpp
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Spring.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Bricks.hpp
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Cylinder.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Globals.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Vector.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\List.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Bricks.hpp
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Box.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Globals.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Vector.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\List.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Bricks.hpp
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\MuscleGroup.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Bricks.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\List.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Cylinder.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Box.hpp
+         Note: including file:    c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\..\Assembly\Sucker.hpp
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Cement.hpp
+         Note: including file:    c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\..\Command\Command.hpp
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\command\..\Assembly\List.hpp
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\command\..\Assembly\Cement.hpp
+         Note: including file:    c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\..\Solid\Solid.hpp
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\GL/glut.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\GEN_MinMax.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Point3.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Vector3.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Scalar.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\SOLID_types.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\GEN_MinMax.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\GEN_random.h
+         Note: including file:       C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include\MT/Vector3.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/MT/Tuple3.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cassert
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\assert.h
+         Note: including file:           c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cassert
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\assert.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Vector3.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Quaternion.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Scalar.h
+         Note: including file:      C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include\MT/Quaternion.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cassert
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\assert.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/MT/Tuple4.h
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cassert
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\assert.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/MT/Vector3.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Matrix3x3.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Scalar.h
+         Note: including file:      C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include\MT/Matrix3x3.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cassert
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\assert.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/MT/Vector3.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/MT/Quaternion.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Transform.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Scalar.h
+         Note: including file:      C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include\MT/Transform.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/MT/Vector3.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/MT/Matrix3x3.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\..\Assembly\Cement.hpp
+         Note: including file:     C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include\SOLID.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/SOLID_types.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\RigidBody.h
+         Note: including file:      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\vector
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\memory
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\intrin.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\immintrin.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\wmmintrin.h
+         Note: including file:           c:\Program Files\Microsoft Visual Studio 10.0\VC\include\nmmintrin.h
+         Note: including file:            c:\Program Files\Microsoft Visual Studio 10.0\VC\include\smmintrin.h
+         Note: including file:             c:\Program Files\Microsoft Visual Studio 10.0\VC\include\tmmintrin.h
+         Note: including file:              c:\Program Files\Microsoft Visual Studio 10.0\VC\include\pmmintrin.h
+         Note: including file:               c:\Program Files\Microsoft Visual Studio 10.0\VC\include\emmintrin.h
+         Note: including file:                c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xmmintrin.h
+         Note: including file:                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\mmintrin.h
+         Note: including file:                  c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\mm3dnow.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\mmintrin.h
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfunctional
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\Dynamic.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\Kinetic.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Transform.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Point3.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Quaternion.h
+         Note: including file:    c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\..\Solid\DT_Cylinder.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\DT_Convex.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\DT_Shape.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\algorithm
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_BBox.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Scalar.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Point3.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Vector3.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include\MT/Tuple3.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Interval.h
+         Note: including file:         C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include\MT/Interval.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cassert
+         Note: including file:           c:\Program Files\Microsoft Visual Studio 10.0\VC\include\assert.h
+         Note: including file:            c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:         c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Scalar.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Transform.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Vector3.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Point3.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Matrix3x3.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Transform.h
+         Note: including file:    c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\..\Solid\DT_Box.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\DT_Convex.h
+         Note: including file:    c:\Program Files\Microsoft Visual Studio 10.0\VC\include\GL\glut.h
+         Note: including file:   c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\GL/gl.h
+         Note: including file:   c:\Program Files\Microsoft Visual Studio 10.0\VC\include\GL/glut.h
+         Note: including file: c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\TestGUIDlg.h
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editsprdlg.cpp(91): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editsprdlg.cpp(105): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editsprdlg.cpp(119): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editsprdlg.cpp(149): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(871) : see declaration of 'itoa'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editsprdlg.cpp(153): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(871) : see declaration of 'itoa'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editsprdlg.cpp(160): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editsprdlg.cpp(162): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editsprdlg.cpp(164): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editsprdlg.cpp(168): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editsprdlg.cpp(189): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editsprdlg.cpp(193): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(871) : see declaration of 'itoa'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editsprdlg.cpp(197): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(871) : see declaration of 'itoa'
+         EditDlg.cpp
+         Note: including file: c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\testGUI.h
+         Note: including file:  c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\resource.h
+         Note: including file: c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\EditDlg.h
+         Note: including file:  c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\interface.h
+         Note: including file:   c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsV3.3\Simulation\Simulation.hpp
+         Note: including file:    c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\..\Assembly\Cement.hpp
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h
+         Note: including file:      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Bricks.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Globals.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\GL\Glut.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\GL/gl.h
+         Note: including file:        c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\GL/glu.h
+         Note: including file:         c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\GL/gl.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Volume.hpp
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/qhull.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\setjmp.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\float.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtwrn.h
+         Note: including file:           c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:         c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\qhull2002.1\include\qhull\user.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/mem.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/qset.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/geom.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/merge.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/poly.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/io.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull/stat.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Vector.hpp
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iostream
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ostream
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ios
+         Note: including file:           c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocnum
+         Note: including file:            c:\Program Files\Microsoft Visual Studio 10.0\VC\include\climits
+         Note: including file:             c:\Program Files\Microsoft Visual Studio 10.0\VC\include\yvals.h
+         Note: including file:              c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:              c:\Program Files\Microsoft Visual Studio 10.0\VC\include\use_ansi.h
+         Note: including file:            c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cmath
+         Note: including file:             c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h
+         Note: including file:            c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstdio
+         Note: including file:            c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstdlib
+         Note: including file:            c:\Program Files\Microsoft Visual Studio 10.0\VC\include\streambuf
+         Note: including file:             c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xiosbase
+         Note: including file:              c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale
+         Note: including file:               c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstring
+         Note: including file:               c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdexcept
+         Note: including file:                c:\Program Files\Microsoft Visual Studio 10.0\VC\include\exception
+         Note: including file:                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xstddef
+         Note: including file:                  c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstddef
+         Note: including file:                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\eh.h
+         Note: including file:                  c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:                c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xstring
+         Note: including file:                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xmemory
+         Note: including file:                  c:\Program Files\Microsoft Visual Studio 10.0\VC\include\new
+         Note: including file:                  c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility
+         Note: including file:                   c:\Program Files\Microsoft Visual Studio 10.0\VC\include\utility
+         Note: including file:                    c:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd
+         Note: including file:                     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cwchar
+         Note: including file:                    c:\Program Files\Microsoft Visual Studio 10.0\VC\include\type_traits
+         Note: including file:                     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\ymath.h
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cfloat
+         Note: including file:                     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xtr1common
+         Note: including file:                     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:                      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:                       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:               c:\Program Files\Microsoft Visual Studio 10.0\VC\include\typeinfo
+         Note: including file:               c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocinfo
+         Note: including file:                c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocinfo.h
+         Note: including file:                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\locale.h
+         Note: including file:                  c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:               c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xdebug
+         Note: including file:              c:\Program Files\Microsoft Visual Studio 10.0\VC\include\system_error
+         Note: including file:               c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cerrno
+         Note: including file:              c:\Program Files\Microsoft Visual Studio 10.0\VC\include\share.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\List.hpp
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\ListElement.hpp
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Status.hpp
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Status.hpp
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Spring.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Bricks.hpp
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Cylinder.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Globals.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Vector.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\List.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Bricks.hpp
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Box.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Globals.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Vector.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\List.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Bricks.hpp
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\MuscleGroup.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Bricks.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\List.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Cylinder.hpp
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Box.hpp
+         Note: including file:    c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\..\Assembly\Sucker.hpp
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\assembly\Cement.hpp
+         Note: including file:    c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\..\Command\Command.hpp
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\command\..\Assembly\List.hpp
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\command\..\Assembly\Cement.hpp
+         Note: including file:    c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\..\Solid\Solid.hpp
+         Note: including file:     c:\Program Files\Microsoft Visual Studio 10.0\VC\include\GL/glut.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\GEN_MinMax.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Point3.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Vector3.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Scalar.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\SOLID_types.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\GEN_MinMax.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\GEN_random.h
+         Note: including file:       C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include\MT/Vector3.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/MT/Tuple3.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cassert
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\assert.h
+         Note: including file:           c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cassert
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\assert.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Vector3.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Quaternion.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Scalar.h
+         Note: including file:      C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include\MT/Quaternion.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cassert
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\assert.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/MT/Tuple4.h
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cassert
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\assert.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/MT/Vector3.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Matrix3x3.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Scalar.h
+         Note: including file:      C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include\MT/Matrix3x3.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cassert
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\assert.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/MT/Vector3.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/MT/Quaternion.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Transform.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Scalar.h
+         Note: including file:      C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include\MT/Transform.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/MT/Vector3.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/MT/Matrix3x3.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\..\Assembly\Cement.hpp
+         Note: including file:     C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include\SOLID.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\include/SOLID_types.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\RigidBody.h
+         Note: including file:      c:\Program Files\Microsoft Visual Studio 10.0\VC\include\vector
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\memory
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\intrin.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\immintrin.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\wmmintrin.h
+         Note: including file:           c:\Program Files\Microsoft Visual Studio 10.0\VC\include\nmmintrin.h
+         Note: including file:            c:\Program Files\Microsoft Visual Studio 10.0\VC\include\smmintrin.h
+         Note: including file:             c:\Program Files\Microsoft Visual Studio 10.0\VC\include\tmmintrin.h
+         Note: including file:              c:\Program Files\Microsoft Visual Studio 10.0\VC\include\pmmintrin.h
+         Note: including file:               c:\Program Files\Microsoft Visual Studio 10.0\VC\include\emmintrin.h
+         Note: including file:                c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xmmintrin.h
+         Note: including file:                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\mmintrin.h
+         Note: including file:                  c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\mm3dnow.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\mmintrin.h
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:        c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:         c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfunctional
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\Dynamic.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\Kinetic.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Transform.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Point3.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Quaternion.h
+         Note: including file:    c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\..\Solid\DT_Cylinder.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\DT_Convex.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\DT_Shape.h
+         Note: including file:       c:\Program Files\Microsoft Visual Studio 10.0\VC\include\algorithm
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_BBox.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Scalar.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Point3.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Vector3.h
+         Note: including file:        C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include\MT/Tuple3.h
+         Note: including file:        c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Interval.h
+         Note: including file:         C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include\MT/Interval.h
+         Note: including file:          c:\Program Files\Microsoft Visual Studio 10.0\VC\include\cassert
+         Note: including file:           c:\Program Files\Microsoft Visual Studio 10.0\VC\include\assert.h
+         Note: including file:            c:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:         c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Scalar.h
+         Note: including file:       c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Transform.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Vector3.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Point3.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Matrix3x3.h
+         Note: including file:      c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\MT_Transform.h
+         Note: including file:    c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\simulation\..\Solid\DT_Box.h
+         Note: including file:     c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\solid\DT_Convex.h
+         Note: including file:    c:\Program Files\Microsoft Visual Studio 10.0\VC\include\GL\glut.h
+         Note: including file:   c:\Program Files\Microsoft SDKs\Windows\v7.0A\include\GL/gl.h
+         Note: including file:   c:\Program Files\Microsoft Visual Studio 10.0\VC\include\GL/glut.h
+         Note: including file: c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\TestGUIDlg.h
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(108): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(112): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(871) : see declaration of 'itoa'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(116): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(871) : see declaration of 'itoa'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(121): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(871) : see declaration of 'itoa'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(173): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(871) : see declaration of 'itoa'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(184): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(186): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(188): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(191): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(193): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(195): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(207): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(210): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(222): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(225): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(228): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(240): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(271): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(285): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(302): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(316): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(330): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(345): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(359): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(373): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\editdlg.cpp(387): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         Generating Code...
+       ResourceCompile:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0409" /nologo /fo".\Debug\testGUI.res" testGUI.rc 
+       ManifestResourceCompile:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\testGUI.exe.embed.manifest.res" .\Debug\testGUI_manifest.rc 
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\testGUI.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Simulation" /MANIFEST /ManifestFile:".\Debug\testGUI.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\Debug\testGUI.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\testGUI.lib" /MACHINE:X86 .\Debug\testGUI.res
+         .\Debug\testGUI.exe.embed.manifest.res
+         .\Debug\EditDlg.obj
+         .\Debug\EditSprDlg.obj
+         .\Debug\StdAfx.obj
+         .\Debug\testGUI.obj
+         .\Debug\testGUIDlg.obj
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\Assembly.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\Box.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\Cylinder.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\List.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\ListElement.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\Muscle.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\MuscleGroup.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\Node.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\Spring.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\SpringBase.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\Status.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\Sucker.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\Surface.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\Vector.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\geom.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\geom2.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\global.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\io.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\mem.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\merge.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\poly.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\poly2.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\qhull.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\qset.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\stat.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\user.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\BP_C-api.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\BP_EndpointList.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\BP_Proxy.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\BP_Scene.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Accuracy.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_BBoxTree.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Box.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_C-api.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Complex.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Cone.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Convex.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Cylinder.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Encounter.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Facet.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_LineSegment.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Object.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_PenDepth.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Point.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Polyhedron.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Polytope.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_RespTable.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Scene.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Sphere.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Triangle.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\Dynamic.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\Kinetic.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\RigidBody.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Command\Debug\ActionItem.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Command\Debug\Command.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Simulation\Debug\controlFile.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Simulation\Debug\Instantiation.t.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Simulation\Debug\Simulation.obj"
+            Creating library .\Debug\testGUI.lib and object .\Debug\testGUI.exp
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+       Manifest:
+         Deleting file ".\Debug\testGUI.exe.embed.manifest".
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\testGUI.exe.embed.manifest" /manifest .\Debug\testGUI.exe.intermediate.manifest "c:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\testGUI.exe.embed.manifest.res" .\Debug\testGUI_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\testGUI.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Simulation" /MANIFEST /ManifestFile:".\Debug\testGUI.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\Debug\testGUI.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\testGUI.lib" /MACHINE:X86 .\Debug\testGUI.res
+         .\Debug\testGUI.exe.embed.manifest.res
+         .\Debug\EditDlg.obj
+         .\Debug\EditSprDlg.obj
+         .\Debug\StdAfx.obj
+         .\Debug\testGUI.obj
+         .\Debug\testGUIDlg.obj
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\Assembly.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\Box.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\Cylinder.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\List.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\ListElement.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\Muscle.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\MuscleGroup.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\Node.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\Spring.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\SpringBase.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\Status.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\Sucker.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\Surface.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Assembly\Debug\Vector.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\geom.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\geom2.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\global.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\io.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\mem.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\merge.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\poly.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\poly2.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\qhull.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\qset.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\stat.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\user.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\BP_C-api.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\BP_EndpointList.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\BP_Proxy.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\BP_Scene.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Accuracy.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_BBoxTree.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Box.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_C-api.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Complex.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Cone.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Convex.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Cylinder.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Encounter.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Facet.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_LineSegment.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Object.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_PenDepth.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Point.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Polyhedron.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Polytope.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_RespTable.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Scene.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Sphere.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\DT_Triangle.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\Dynamic.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\Kinetic.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\Debug\RigidBody.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Command\Debug\ActionItem.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Command\Debug\Command.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Simulation\Debug\controlFile.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Simulation\Debug\Instantiation.t.obj"
+         "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Simulation\Debug\Simulation.obj"
+            Creating library .\Debug\testGUI.lib and object .\Debug\testGUI.exp
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         testGUI.vcxproj -> C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\.\Debug\testGUI.exe
+       BscMake:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug\testGUI.bsc" .\Debug\EditDlg.sbr .\Debug\EditSprDlg.sbr .\Debug\StdAfx.sbr .\Debug\testGUI.sbr .\Debug\testGUIDlg.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\testGUI.unsuccessfulbuild".
+         Touching ".\Debug\testGUI.lastbuildstate".
+     1>Done Building Project "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\testGUI.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.91

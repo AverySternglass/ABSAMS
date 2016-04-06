@@ -1,0 +1,22 @@
+MHUnits	2													
+Surfaces	1													
+Type		0												
+
+MHU	Type	Anch	A	B	C	X	Y	Z	I	J	K	L	M	N
+0	2	0	0.01	0.02	0.03	0	0	0	1	0	0	0	0	1
+1	1	0	0.01	0.02	0.03	0.03	0.018	0	0	1	0	-1	0	0
+
+Surface 1														
+Nodes	1													
+Springs	0													
+
+Node	Mhunit	U	V	W										
+0	1	0.015	0	0									
+1	1	0	0	0										
+2	0	0	0	0										
+3	1	0	0	0	
+
+Spring	Start	End	RestL	Stiff	Damping
+0	0	3	-1	-1	-1
+1	1	4	-1	-1	-1
+2	2	5	-1	-1	-1

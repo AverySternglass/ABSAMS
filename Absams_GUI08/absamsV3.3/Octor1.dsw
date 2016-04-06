@@ -1,0 +1,92 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "Assembly"=".\Assembly\Assembly.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Command"=".\Command\Command.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Assembly
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Simulation"=".\Simulation\Simulation.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Assembly
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Command
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Solid
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Solid"=".\Solid\Solid.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name qhull
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "qhull"=".\qhull2002.1\VisualC6\qhull\qhull.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

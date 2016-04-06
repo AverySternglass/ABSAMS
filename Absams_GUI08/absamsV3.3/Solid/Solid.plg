@@ -1,0 +1,111 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Solid - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\setlurp\LOCALS~1\Temp\RSPC8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "QHULL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/Solid.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\BP_C-api.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\BP_EndpointList.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\BP_Proxy.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\BP_Scene.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\DT_Accuracy.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\DT_BBoxTree.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\DT_Box.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\DT_C-api.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\DT_Complex.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\DT_Cone.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\DT_Convex.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\DT_Cylinder.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\DT_Encounter.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\DT_Facet.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\DT_LineSegment.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\DT_Object.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\DT_PenDepth.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\DT_Point.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\DT_Polyhedron.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\DT_Polytope.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\DT_RespTable.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\DT_Scene.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\DT_Sphere.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\DT_Triangle.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\Dynamic.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\Kinetic.cpp"
+"C:\Active\BCR\Testgui\absamsV3.3\Solid\RigidBody.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\setlurp\LOCALS~1\Temp\RSPC8.tmp" 
+Creating temporary file "C:\DOCUME~1\setlurp\LOCALS~1\Temp\RSPC9.tmp" with contents
+[
+/nologo /out:"Debug\Solid.lib" 
+".\Debug\BP_C-api.obj"
+.\Debug\BP_EndpointList.obj
+.\Debug\BP_Proxy.obj
+.\Debug\BP_Scene.obj
+.\Debug\DT_Accuracy.obj
+.\Debug\DT_BBoxTree.obj
+.\Debug\DT_Box.obj
+".\Debug\DT_C-api.obj"
+.\Debug\DT_Complex.obj
+.\Debug\DT_Cone.obj
+.\Debug\DT_Convex.obj
+.\Debug\DT_Cylinder.obj
+.\Debug\DT_Encounter.obj
+.\Debug\DT_Facet.obj
+.\Debug\DT_LineSegment.obj
+.\Debug\DT_Object.obj
+.\Debug\DT_PenDepth.obj
+.\Debug\DT_Point.obj
+.\Debug\DT_Polyhedron.obj
+.\Debug\DT_Polytope.obj
+.\Debug\DT_RespTable.obj
+.\Debug\DT_Scene.obj
+.\Debug\DT_Sphere.obj
+.\Debug\DT_Triangle.obj
+.\Debug\Dynamic.obj
+.\Debug\Kinetic.obj
+.\Debug\RigidBody.obj
+\Active\BCR\Testgui\absamsV3.3\qhull2002.1\VisualC6\qhull\Debug\qhull.lib
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\setlurp\LOCALS~1\Temp\RSPC9.tmp"
+<h3>Output Window</h3>
+Compiling...
+BP_C-api.cpp
+BP_EndpointList.cpp
+BP_Proxy.cpp
+BP_Scene.cpp
+DT_Accuracy.cpp
+DT_BBoxTree.cpp
+DT_Box.cpp
+DT_C-api.cpp
+DT_Complex.cpp
+DT_Cone.cpp
+DT_Convex.cpp
+DT_Cylinder.cpp
+DT_Encounter.cpp
+DT_Facet.cpp
+DT_LineSegment.cpp
+DT_Object.cpp
+DT_PenDepth.cpp
+DT_Point.cpp
+DT_Polyhedron.cpp
+DT_Polytope.cpp
+DT_RespTable.cpp
+DT_Scene.cpp
+DT_Sphere.cpp
+DT_Triangle.cpp
+Dynamic.cpp
+Kinetic.cpp
+RigidBody.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+Solid.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

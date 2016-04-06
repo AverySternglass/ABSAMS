@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <IncludePath>C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include;C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include\MT;C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\src;C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include\MT;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\Solid.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\Solid.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\Solid.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;QHULL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\Solid.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <AdditionalIncludeDirectories>C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include;C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\src;C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull;C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\Solid\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\Solid.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\Solid.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BP_C-api.cpp" />
+    <ClCompile Include="BP_EndpointList.cpp" />
+    <ClCompile Include="BP_Proxy.cpp" />
+    <ClCompile Include="BP_Scene.cpp" />
+    <ClCompile Include="DT_Accuracy.cpp" />
+    <ClCompile Include="DT_BBoxTree.cpp" />
+    <ClCompile Include="DT_Box.cpp" />
+    <ClCompile Include="DT_C-api.cpp" />
+    <ClCompile Include="DT_Complex.cpp" />
+    <ClCompile Include="DT_Cone.cpp" />
+    <ClCompile Include="DT_Convex.cpp" />
+    <ClCompile Include="DT_Cylinder.cpp" />
+    <ClCompile Include="DT_Encounter.cpp" />
+    <ClCompile Include="DT_Facet.cpp" />
+    <ClCompile Include="DT_LineSegment.cpp" />
+    <ClCompile Include="DT_Object.cpp" />
+    <ClCompile Include="DT_PenDepth.cpp" />
+    <ClCompile Include="DT_Point.cpp" />
+    <ClCompile Include="DT_Polyhedron.cpp" />
+    <ClCompile Include="DT_Polytope.cpp" />
+    <ClCompile Include="DT_RespTable.cpp" />
+    <ClCompile Include="DT_Scene.cpp" />
+    <ClCompile Include="DT_Sphere.cpp" />
+    <ClCompile Include="DT_Triangle.cpp" />
+    <ClCompile Include="Dynamic.cpp" />
+    <ClCompile Include="Kinetic.cpp" />
+    <ClCompile Include="RigidBody.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BP_Endpoint.h" />
+    <ClInclude Include="BP_EndpointList.h" />
+    <ClInclude Include="BP_Proxy.h" />
+    <ClInclude Include="BP_ProxyList.h" />
+    <ClInclude Include="BP_Scene.h" />
+    <ClInclude Include="DT_Accuracy.h" />
+    <ClInclude Include="DT_AlgoTable.h" />
+    <ClInclude Include="DT_Array.h" />
+    <ClInclude Include="DT_BBoxTree.h" />
+    <ClInclude Include="DT_Box.h" />
+    <ClInclude Include="DT_CBox.h" />
+    <ClInclude Include="DT_Complex.h" />
+    <ClInclude Include="DT_Cone.h" />
+    <ClInclude Include="DT_Convex.h" />
+    <ClInclude Include="DT_Cylinder.h" />
+    <ClInclude Include="DT_Encounter.h" />
+    <ClInclude Include="DT_Facet.h" />
+    <ClInclude Include="DT_GJK.h" />
+    <ClInclude Include="DT_Hull.h" />
+    <ClInclude Include="DT_IndexArray.h" />
+    <ClInclude Include="DT_LineSegment.h" />
+    <ClInclude Include="DT_Minkowski.h" />
+    <ClInclude Include="DT_Object.h" />
+    <ClInclude Include="DT_PenDepth.h" />
+    <ClInclude Include="DT_Point.h" />
+    <ClInclude Include="DT_Polyhedron.h" />
+    <ClInclude Include="DT_Polytope.h" />
+    <ClInclude Include="DT_Response.h" />
+    <ClInclude Include="DT_RespTable.h" />
+    <ClInclude Include="DT_Scene.h" />
+    <ClInclude Include="DT_Shape.h" />
+    <ClInclude Include="DT_Sphere.h" />
+    <ClInclude Include="DT_Transform.h" />
+    <ClInclude Include="DT_Triangle.h" />
+    <ClInclude Include="DT_VertexBase.h" />
+    <ClInclude Include="Dynamic.h" />
+    <ClInclude Include="GEN_MinMax.h" />
+    <ClInclude Include="GEN_random.h" />
+    <ClInclude Include="include\MT\Interval.h" />
+    <ClInclude Include="include\MT\Matrix3x3.h" />
+    <ClInclude Include="include\MT\Quaternion.h" />
+    <ClInclude Include="include\MT\Transform.h" />
+    <ClInclude Include="include\MT\Tuple3.h" />
+    <ClInclude Include="include\MT\Tuple4.h" />
+    <ClInclude Include="include\MT\Vector3.h" />
+    <ClInclude Include="Kinetic.h" />
+    <ClInclude Include="MT_BBox.h" />
+    <ClInclude Include="MT_Interval.h" />
+    <ClInclude Include="MT_Matrix3x3.h" />
+    <ClInclude Include="MT_Point3.h" />
+    <ClInclude Include="MT_Quaternion.h" />
+    <ClInclude Include="MT_Scalar.h" />
+    <ClInclude Include="MT_Transform.h" />
+    <ClInclude Include="MT_Vector3.h" />
+    <ClInclude Include="RigidBody.h" />
+    <ClInclude Include="SOLID.h" />
+    <ClInclude Include="Solid.hpp" />
+    <ClInclude Include="SOLID_broad.h" />
+    <ClInclude Include="SOLID_types.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

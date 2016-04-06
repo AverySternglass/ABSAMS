@@ -1,0 +1,104 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "Assembly"=.\absamsV3.3\Assembly\Assembly.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Solid
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Command"=.\absamsV3.3\Command\Command.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "SimulationLibrary"=.\SimulationLibrary\SimulationLibrary.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Assembly
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Command
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Solid"=.\absamsV3.3\Solid\Solid.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name qhull
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "qhull"=.\absamsV3.3\qhull2002.1\VisualC6\qhull\qhull.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "testGUI"=.\testGUI.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name SimulationLibrary
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

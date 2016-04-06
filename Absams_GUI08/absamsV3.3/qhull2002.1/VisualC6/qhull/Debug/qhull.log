@@ -1,0 +1,85 @@
+﻿Build started 3/28/2016 7:54:00 PM.
+     1>Project "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\qhull.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Debug\qhull.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\Debug\qhull.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\include\qhull" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TC /analyze- /errorReport:prompt ..\..\src\geom.c ..\..\src\geom2.c ..\..\src\global.c ..\..\src\io.c ..\..\src\mem.c ..\..\src\merge.c ..\..\src\poly.c ..\..\src\poly2.c ..\..\src\qhull.c ..\..\src\qset.c ..\..\src\stat.c ..\..\src\user.c
+         user.c
+         stat.c
+         qset.c
+         qhull.c
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\qhull2002.1\src\qhull.c(444): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\qhull2002.1\src\qhull.c(466): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+         poly2.c
+         poly.c
+         merge.c
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\qhull2002.1\src\merge.c(3467): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+         mem.c
+         io.c
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\qhull2002.1\src\io.c(3764): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(175) : see declaration of 'strncat'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\qhull2002.1\src\io.c(3782): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(175) : see declaration of 'strncat'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\qhull2002.1\src\io.c(3894): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(175) : see declaration of 'strncat'
+         global.c
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\qhull2002.1\src\global.c(471): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\qhull2002.1\src\global.c(473): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\qhull2002.1\src\global.c(480): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\qhull2002.1\src\global.c(481): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\qhull2002.1\src\global.c(529): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(175) : see declaration of 'strncat'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\qhull2002.1\src\global.c(641): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\qhull2002.1\src\global.c(1219): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(249) : see declaration of 'freopen'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\qhull2002.1\src\global.c(1259): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(249) : see declaration of 'freopen'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\qhull2002.1\src\global.c(1722): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\qhull2002.1\src\global.c(1896): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\qhull2002.1\src\global.c(1898): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\qhull2002.1\src\global.c(1900): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\qhull2002.1\src\global.c(1907): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(175) : see declaration of 'strncat'
+     1>c:\users\bcr_lab\documents\xin guan\absams_gui08\absams_gui08\absamsv3.3\qhull2002.1\src\global.c(1909): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(175) : see declaration of 'strncat'
+         geom2.c
+         geom.c
+         Generating Code...
+       Lib:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\Debug\qhull.lib" /NOLOGO .\Debug\geom.obj
+         .\Debug\geom2.obj
+         .\Debug\global.obj
+         .\Debug\io.obj
+         .\Debug\mem.obj
+         .\Debug\merge.obj
+         .\Debug\poly.obj
+         .\Debug\poly2.obj
+         .\Debug\qhull.obj
+         .\Debug\qset.obj
+         .\Debug\stat.obj
+         .\Debug\user.obj
+         qhull.vcxproj -> C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\.\Debug\qhull.lib
+       BscMake:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug\qhull.bsc" .\Debug\geom.sbr .\Debug\geom2.sbr .\Debug\global.sbr .\Debug\io.sbr .\Debug\mem.sbr .\Debug\merge.sbr .\Debug\poly.sbr .\Debug\poly2.sbr .\Debug\qhull.sbr .\Debug\qset.sbr .\Debug\stat.sbr .\Debug\user.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\qhull.unsuccessfulbuild".
+         Touching ".\Debug\qhull.lastbuildstate".
+     1>Done Building Project "C:\Users\BCR_lab\Documents\Xin Guan\Absams_GUI08\Absams_GUI08\absamsV3.3\qhull2002.1\VisualC6\qhull\qhull.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.02

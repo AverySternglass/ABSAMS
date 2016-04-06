@@ -1,0 +1,362 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\testGUI.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\testGUI.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About testGUI"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "testGUI Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2005",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_TESTGUI_DIALOG DIALOGEX 0, 0, 367, 250
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "testGUI"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,260,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,260,23,50,14
+    PUSHBUTTON      "Open Assembly",IDC_OPEN_BUTTON,14,15,60,21
+    LTEXT           "Messages",IDC_STATIC,29,107,33,8
+    PUSHBUTTON      "Save Assembly",IDC_SAVE_BUTTON,15,74,60,21
+    LISTBOX         IDC_LIST1,7,118,353,125,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Edit MH Units",IDC_EDIT_BUTTON,15,44,58,19,WS_DISABLED
+    PUSHBUTTON      "Open Command",IDC_ADD_COMMAND,97,15,60,21
+    PUSHBUTTON      "Run Simulation",IDC_RUN_SIMULATION,181,14,60,21,
+                    WS_DISABLED
+    PUSHBUTTON      "Show Collisions",IDC_SHOW_COLLISIONS,182,44,60,21,
+                    WS_DISABLED
+    PUSHBUTTON      "Edit Nodes/Springs",IDC_EDIT_BUTTON2,97,44,58,19,
+                    BS_MULTILINE
+END
+
+IDD_EDIT_DIALOG DIALOG DISCARDABLE  0, 0, 370, 258
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,313,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,313,24,50,14
+    COMBOBOX        IDC_MHU_SELECT_COMBO,58,35,78,156,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Select MHU",IDC_STATIC,12,38,40,8
+    LTEXT           "Selection Tag",IDC_STATIC,162,37,45,8
+    LTEXT           "Number of MH Units: ",IDC_STATIC,98,16,69,8
+    EDITTEXT        IDC_NUM_MHU,171,16,27,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    COMBOBOX        IDC_TAG_SELECT,216,35,78,156,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Properties of MHU #",IDC_STATIC,29,89,69,9
+    EDITTEXT        IDC_DIMENSION_1,55,124,54,12,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_ARROWKEYS,110,
+                    123,11,13
+    EDITTEXT        IDC_DIMENSION_2,55,148,54,12,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN2,"msctls_updown32",UDS_ARROWKEYS,109,
+                    147,11,13
+    EDITTEXT        IDC_DIMENSION_3,55,173,54,12,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN3,"msctls_updown32",UDS_ARROWKEYS,109,
+                    172,11,13
+    LTEXT           "Shape :",IDC_STATIC,29,105,31,9
+    EDITTEXT        IDC_SHAPE,61,105,41,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_DIM1,14,127,41,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_DIM2,14,151,41,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_DIM3,15,175,41,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_SEL_MHU,99,89,27,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    PUSHBUTTON      "Apply Changes",IDC_APPLY,127,211,83,23
+    LTEXT           "Position X ",IDC_STATIC,131,126,34,9
+    LTEXT           "Position Z",IDC_STATIC,131,175,34,9
+    LTEXT           "Position Y",IDC_STATIC,131,149,34,9
+    EDITTEXT        IDC_POSITION_X,171,124,54,12,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN4,"msctls_updown32",UDS_ARROWKEYS,225,
+                    123,11,13
+    EDITTEXT        IDC_POSITION_Y,171,148,54,12,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN5,"msctls_updown32",UDS_ARROWKEYS,225,
+                    147,11,13
+    EDITTEXT        IDC_POSITION_Z,171,173,54,12,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN6,"msctls_updown32",UDS_ARROWKEYS,225,
+                    172,11,13
+    LTEXT           "Orientation L",IDC_STATIC,244,126,44,9
+    LTEXT           "Orientation N",IDC_STATIC,244,174,41,9
+    LTEXT           "Orientation M",IDC_STATIC,244,149,42,9
+    EDITTEXT        IDC_ORIENTATION_L,290,124,54,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN7,"msctls_updown32",UDS_ARROWKEYS,344,
+                    123,11,13
+    EDITTEXT        IDC_ORIENTATION_M,290,148,54,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN8,"msctls_updown32",UDS_ARROWKEYS,344,
+                    147,11,13
+    EDITTEXT        IDC_ORIENTATION_N,290,173,54,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN9,"msctls_updown32",UDS_ARROWKEYS,344,
+                    172,11,13
+END
+
+IDD_EDIT_DIALOG1 DIALOG DISCARDABLE  0, 0, 370, 258
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,313,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,313,24,50,14
+    COMBOBOX        IDC_NODE_SELECT_COMBO,58,35,78,156,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Select Node",IDC_STATIC,12,38,40,8
+    LTEXT           "Select Spring",IDC_STATIC,162,37,43,8
+    LTEXT           "Number of Nodes: ",IDC_STATIC,16,16,60,8
+    EDITTEXT        IDC_NUM_NODES,79,16,27,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    COMBOBOX        IDC_TAG_SELECT,216,35,78,156,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Properties of Node #",IDC_STATIC,29,70,69,9
+    EDITTEXT        IDC_SEL_NODE,99,70,27,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    PUSHBUTTON      "Apply Changes",IDC_APPLY,127,211,83,23
+    LTEXT           "Position U",IDC_STATIC,20,116,34,9
+    LTEXT           "Position W",IDC_STATIC,20,165,34,9
+    LTEXT           "Position V",IDC_STATIC,20,139,34,9
+    EDITTEXT        IDC_POSITION_U,60,114,54,12,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN12,"msctls_updown32",UDS_ARROWKEYS,114,
+                    113,11,13
+    EDITTEXT        IDC_POSITION_V,60,138,54,12,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN13,"msctls_updown32",UDS_ARROWKEYS,114,
+                    137,11,13
+    EDITTEXT        IDC_POSITION_W,60,163,54,12,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN14,"msctls_updown32",UDS_ARROWKEYS,114,
+                    162,11,13
+    LTEXT           "Begin Node",IDC_STATIC,218,95,44,9
+    LTEXT           "Stiffness",IDC_STATIC,218,143,41,9
+    LTEXT           "End Node",IDC_STATIC,218,118,42,9
+    EDITTEXT        IDC_BEGIN_NODE,264,94,54,12,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN15,"msctls_updown32",UDS_ARROWKEYS,318,
+                    92,11,13
+    EDITTEXT        IDC_END_NODE,264,118,54,12,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN16,"msctls_updown32",UDS_ARROWKEYS,318,
+                    116,11,13
+    EDITTEXT        IDC_SPRING_STIFF,264,142,54,12,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN17,"msctls_updown32",UDS_ARROWKEYS,318,
+                    142,11,13
+    LTEXT           "Properties of Spring #",IDC_STATIC,220,68,69,9
+    EDITTEXT        IDC_SEL_SPRING,290,68,27,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    LTEXT           "Damping",IDC_STATIC,217,167,41,9
+    EDITTEXT        IDC_SPRING_DAMP,263,167,54,12,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_SPIN18,"msctls_updown32",UDS_ARROWKEYS,317,
+                    167,11,13
+    LTEXT           "Associated MH Unit ID",IDC_STATIC,23,90,72,11
+    LTEXT           "Number of Springs: ",IDC_STATIC,171,14,63,8
+    EDITTEXT        IDC_NUM_SPRINGS,235,14,27,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_ASSOC_MHU,99,90,27,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "testGUI MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "testGUI\0"
+            VALUE "LegalCopyright", "Copyright (C) 2005\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "testGUI.EXE\0"
+            VALUE "ProductName", "testGUI Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_TESTGUI_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 360
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 243
+    END
+
+    IDD_EDIT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 363
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 251
+    END
+
+    IDD_EDIT_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 363
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 251
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About testGUI..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\testGUI.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
