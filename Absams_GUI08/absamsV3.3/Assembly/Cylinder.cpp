@@ -51,7 +51,11 @@ Cylinder :: Cylinder(int unitNumber,
 	d_previousLongitudinalAcceleration = 0;
 	d_radialLoad = 0;
 	d_longitudinalLoad = 0;
-	d_pressureConstantVolume = 0;
+	//d_pressureConstantVolume = 0;
+	d_pressureConstantVolume = - c_bulkModulus * ((PI * d_radius * d_radius * d_height) 
+					- (PI * c_restingRadius * c_restingRadius * c_restingHeight))
+					/(PI * c_restingRadius * c_restingRadius * c_restingHeight);
+	//
 	d_isAnchor = false;
 	d_position = position;
 	orientation = orientation.normalize();
@@ -112,7 +116,11 @@ Cylinder :: Cylinder(int unitNumber,
 	d_previousLongitudinalAcceleration = 0;
 	d_radialLoad = 0;
 	d_longitudinalLoad = 0;
-	d_pressureConstantVolume = 0;
+	//d_pressureConstantVolume = 0;
+	d_pressureConstantVolume = - c_bulkModulus * ((PI * d_radius * d_radius * d_height) 
+					- (PI * c_restingRadius * c_restingRadius * c_restingHeight))
+					/(PI * c_restingRadius * c_restingRadius * c_restingHeight);
+	//
 	d_isAnchor = false;
 	d_position = position;
 	orientation = orientation.normalize();
@@ -145,21 +153,20 @@ Cylinder :: Cylinder(int unitNumber,
 //============================================================
 void Cylinder :: shapeChange(void)
 {
-	const double initialVolume = PI * c_restingRadius * c_restingRadius * c_restingHeight;
+	//const double initialVolume = PI * c_restingRadius * c_restingRadius * c_restingHeight;
 	double curvedArea = 2.0*PI*d_radius*d_height;
 	double capArea = 2.0*PI*d_radius*d_radius;
 	double radialPressure = d_radialCommandForce/curvedArea;
 	double longitudinalPressure = d_longitudinalCommandForce/capArea;
 	
-	double currentVolume = PI * d_radius * d_radius * d_height;
+	//double currentVolume = PI * d_radius * d_radius * d_height;
 	double rateOfVolumeChange = 2*PI*d_radius*d_height*d_radialVelocity
 								+PI*d_radius*d_radius*d_longitudinalVelocity;
 
 	//cout << currentVolume << " " << rateOfVolumeChange <<endl;
 
-	d_pressureConstantVolume = - c_bulkModulus * (currentVolume - initialVolume)/initialVolume;
+	//d_pressureConstantVolume = - c_bulkModulus * (currentVolume - initialVolume)/initialVolume;
 
-	
 	
 	d_radialAcceleration = ((radialPressure - s_ambientPressure + d_pressureConstantVolume)*curvedArea 
 							- c_radialMuscleStiffness * (d_radius - c_restingRadius) 
