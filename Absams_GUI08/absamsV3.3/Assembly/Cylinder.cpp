@@ -116,7 +116,7 @@ Cylinder :: Cylinder(int unitNumber,
 	d_previousLongitudinalAcceleration = 0;
 	d_radialLoad = 0;
 	d_longitudinalLoad = 0;
-	//d_pressureConstantVolume = 0;
+	//d_pressureConstantVolume = 0; 
 	d_pressureConstantVolume = - c_bulkModulus * ((PI * d_radius * d_radius * d_height) 
 					- (PI * c_restingRadius * c_restingRadius * c_restingHeight))
 					/(PI * c_restingRadius * c_restingRadius * c_restingHeight);
