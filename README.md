@@ -1,0 +1,3 @@
+# ABSAMS
+The muscular hydrostat simulator 
+This is a simulator for muscular hydrostats systems. It is intended to model either artificial soft systems (soft robots) or natural  soft actuation systems (tongues, octopuses). The simulator here contains classes that implement muscular hydrostat units (MHUs), anchor points that are fixed in space, nodes that are fixed to the MHUS and springs that connect the nodes on different MHUs that bind them together. The springs represent connective tissue in natural MHU systems and they represent real springs ( or other elastic connective materials in robots).
